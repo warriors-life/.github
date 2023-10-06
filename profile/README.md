@@ -1,0 +1,67 @@
+## How to verify Warriors Life's signed files, e.g. releases accompanied by .asc signatures?
+
+All Warriors Life signatures can be verified with the following PGP public key (RSA-4096) of Warriors Life \<info@warriorslife.site\>:
+
+<details>
+<summary>8C317DB1C95E6B86BEBB8C961C59D3FDBDC3CE1D</summary>
+  
+```
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+Lw4=
+=vKyC
+-----END PGP PUBLIC KEY BLOCK-----
+```
+</details>
+
+To verify:
+1. Run `gpg --import key.asc`, where `key.asc` is the file where the above public key is located,
+2. Run `gpg --verify file.name.asc file.name`,
+3. Verify that "Good signature" is outputed.
