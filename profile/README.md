@@ -61,7 +61,17 @@ Lw4=
 ```
 </details>
 
-To verify:
-1. Run `gpg --import key.asc`, where `key.asc` is the file where the above public key is located,
-2. Run `gpg --verify file.name.asc file.name`,
-3. Verify that "Good signature" is outputed.
+It is also available at https://github.com/warriors-life-machine-user.gpg.
+
+To import:
+1. Run `curl -o warriors-life.key https://github.com/warriors-life-machine-user.gpg` or just paste above key to `warriors-life.key` file,
+2. Run `gpg --import warriors-life.key`,
+3. Or, instead of the steps above, run `gpg --recv-keys 8C317DB1C95E6B86BEBB8C961C59D3FDBDC3CE1D`.
+
+If you want to (locally) mark the key as validated do this:
+1. Run `echo "8C317DB1C95E6B86BEBB8C961C59D3FDBDC3CE1D:5:" | gpg --import-ownertrust`,
+2. Run `gpg --lsign-key 8C317DB1C95E6B86BEBB8C961C59D3FDBDC3CE1D`.
+
+To verify signature:
+1. Run `gpg --verify file.name.asc file.name`,
+2. Verify that "Good signature" is outputed.
