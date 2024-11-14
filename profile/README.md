@@ -1,4 +1,4 @@
-## How to verify Warriors Life's signed files, e.g. releases accompanied by .asc signatures?
+## How to verify Warriors Life-signed files, e.g. releases accompanied by .asc signatures?
 
 All Warriors Life signatures can be verified with the following PGP public key (RSA-4096) of Warriors Life \<info@warriorslife.site\>:
 
